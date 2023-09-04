@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Blog Epicode</title>
+    </head>
+    <body>
+        <header>
+            <img src="./assets/logo epicode.jpg">
+            <h1 class="nice">Epicode:il blog dei developers</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#articoli">Articoli</a>
+                <a href="#job">Job</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h2>Primi passi operativi per creare un modello di pagina HTML per un post.Scopri come iniziare in modo facile</h2>
+            </div>
+                <div class="row">
+                <article class="column">
+                    <h2>Come creare un template per i post</h2>
+                    <p>di Mario Rossi</p>
+                    <p>La prima cosa da fare è <strong>suddividere in blocchi logici la pagina,</strong>identificando le parti comuni da applicare a tutte le pagine.</p>
+                    <p>Le varie aree saranno quindi suddivise in:</p>
+                    <ol class="order">
+                        <li>Contenuti di intestazione del tag<code>&lt;header&gt;</code></li>
+                        <li>Contenuti centrali variabili del tag<code>&lt;main&gt;</code></li>
+                        <li>Contenuti di fine pagina comuni,da inserire nel tag<code>&lt;footer&gt;</code></li>
+                        <li>Formattazione del codice</li>
+                    </ol>
+                    <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS.Perciò i passi saranno:</p>
+                    <ol class="order">
+                        <li>Progettare su carta il markup finale,assegnando a ogni specifico tag il testo appropriato</li>
+                        <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                        <li>Applicare gli stili CSS</li>
+                        <li>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere una diffusione pressochè totale</li>
+                    </ol>          
+                <table>
+                    <caption>Diffusione dei CSS</caption>
+                    <tr>
+                        <th>Anno</th>
+                        <th>% di utilizzo</th>
+                        <th>Supporto dei browsers</th>
+                    </tr>
+                    <tr>
+                        <td>2000</td>
+                        <td>20%</td>
+                        <td>17%</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>35%</td>
+                        <td>22%</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>45%</td>
+                        <td>42%</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>80%</td>
+                        <td>51%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>100%</td>
+                        <td>76%</td>
+                    </tr>
+                </table>
+                    <p>Un test di validazione potrà essere fatto tramite il tool online <a href="https://jigsaw.w3.org/css-validator/" target="_blank">-Link per la validazione-</a>dedicato allo scopo.Una volta ottimizzato il tutto,avremo raggiunto il nostro obiettivo ed essere stati dei veri <b>developers</b> come loro.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aBSZVeBRvDY?si=-7Gse_Zwcm6_pApN" title="YouTube video player" frameborder="10px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </article>
+            <section>
+                <aside class="articoli">
+                <h2>Articoli correlati</h2>
+                </aside>
+            </section>
+            <section>
+                <aside class="articoli">
+                    <img class="pics" src="./assets/256x256bb.jpg" alt="Logo HTML">
+                <a href="">Validare il codice HTML</a>
+                <p>Categoria: Develop</p>
+                <p>Data:18/09/2022</p>
+                </aside>
+            </section>
+            <section>
+                <aside class="articoli">
+                    <img class="pics" src="./assets/icon-256x256.png" alt="Logo Sintassi">
+                    <a href="">Correggere la sintassi</a>
+                    <p>Categoria: Develop</p>
+                    <p>Data:24/09/22</p>
+                </aside>
+            </section>
+            <section>
+                <aside class="articoli">
+                    <img class="pics" src="./assets/coding.png">
+                    <a href="">Meno kb nella pagina</a>
+                    <p>Categoria: Ottimizzazione</p>
+                    <p>Data:05/10/2022</p>
+                </aside>
+            </section>
+            <section class="articoli">
+                <h2>Vuoi rimanere aggiornato su altre novità del blog?Iscriviti alla nostra newsletter:</h2>
+                <form method="post" action="codice.php" autocomplete="on">
+                    <label class="inlinea" for="nome">Nome e Cognome</label>
+                    <input type="text" id="nome" name="nomecognome" placeholder="Il tuo nome e cognome">
+                    <label class="inlinea" for="Email">Indirizzo Email</label>
+                    <input type="email" id="email" name="indirizzoemail" placeholder="La tua email">
+                </form>
+                <button type="button">Iscriviti!</button>
+            </section>
+                </div>
+        </main>
+        <footer class="container">
+            <img src="./assets/logo epicode.jpg" alt="Logo Epicode">
+            <section>
+                <h3>Testata online di Mario Rossi</h3>
+                <h4>Registrata con prot. n.213/2018</h4>
+                <h4>Via Luigi Einaudi 2-Milano</h4>
+                <h4>P.Iva 0011223344</h4>
+                <a href="">info@epicodeschool</a>
+            </section>
+            <section>
+                <h3>Seguimi sui miei canli social</h3>
+                <ul>
+                    <li><img class="picfooter" src="./assets/icons8-facebook.svg">Facebook</li>
+                    <li><img class="picfooter" src="./assets/icons8-instagram.svg">Instagram</li>
+                    <li><img class="picfooter" src="./assets/icons8-linkedin.svg">Linkedin</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Contatti personali</h3>
+                <ul>
+                    <li><a aria-label="Chat on WhatsApp" href="https://wa.me/393295974050" target="_blank"><img class="picfooter" alt="Chat on WhatsApp" src="./assets/icons8-whatsapp.gif">
+                    </a>Clicca l'icona per chattare con me!</li>
+                    <li><img class="picfooter" src="./assets/icons8-mail.svg"><a href="mail.to">Scrivimi una mail</a></li>
+                </ul>
+            </section>
+        </footer>
+                    
+
+            
+            
+           
+            
+            
+        
+        
+    
+        
+       
+        
+        
+
+        
+        
+                
+                
+                
+            
+
+            
+                
+                
+                            
+
+
